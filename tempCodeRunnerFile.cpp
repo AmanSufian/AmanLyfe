@@ -14,4 +14,6 @@ cout<< " Enter a single character: ";
 cin >> a;
 cout <<" Enter an array of charaacters:";
 cin>> b;
+int f = num + dec;
+cout << f;
 }
