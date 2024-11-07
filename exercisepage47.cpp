@@ -13,7 +13,7 @@ int main(){
         cin >> weight;
         totWeight += weight;
         weightCnt++;
-    } while (weightCnt < N);
+    } while (N--);
     
     cout <<"\n\nYou have "<< weightCnt <<" weights.";
     cout <<"\nThe Average weight:  "<< (totWeight/weightCnt); 
