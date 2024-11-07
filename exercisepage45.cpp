@@ -7,7 +7,7 @@ int main (){
     cout <<"Calculate the Average and Total Weight";
     cout <<" Of 5 Students \n\n";
     
-    while (weightCnt <= 5){
+    while (weightCnt < 5){
         cout <<"Enter the weight of a student:";
         cin >>weight;
         toweight += weight;
