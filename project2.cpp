@@ -6,6 +6,6 @@ int main(){
     cout << " Please enter the value money in RM:";
     cin >> MYR;
     float turkish_lira = MYR * MYR_TO_MYR;
-    cout <<"The money value in Turkish Lira is" <<turkish_lira;30
+    cout <<"The money value in Turkish Lira is" <<turkish_lira;
     return 0;
 }
