@@ -1,12 +1,13 @@
 #include <iostream>
 using namespace std;
 int main (){
-    int more = 1,weightCnt = 0;
+    bool more = 1;
+    int weightCnt = 0;
     double weight,toweight=0;
     cout <<"Calculate the Average and Total Weight";
     cout <<" Of 5 Students \n\n";
     
-    while (more == 1){
+    while (more){
         cout <<"Enter the weight of a student:";
         cin >>weight;
         toweight += weight;
